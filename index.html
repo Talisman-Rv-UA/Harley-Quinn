@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Credit Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="credit-card-box">
+            <h2>CREDIT CARD DETAILS</h2>
+            <form action="#" method="GET">
+                <div class="credit-card-box-item">
+                    <p>Card Number</p>
+                    <input type="number" name="card-number" placeholder="1234 5678 9012 3456" required>
+                </div>
+                <div class="credit-card-box-item">
+                    <p>Name On Card</p>
+                    <input type="text" name="name" placeholder="Name Surname">
+                </div>
+                <div class="credit-card-box-expiry-date">
+                    <div class="credit-card-box-expiry-date_item">
+                        <p>Expiry Date</p>
+                        <select name="mounth" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                          </select>
+                    </div>
+                    <div class="credit-card-box-expiry-date_item">
+                        <p><br></p>
+                        <input type="number" name="year" min="2022" max="2025" placeholder="2022">
+                    </div>
+                    <div class="credit-card-box-expiry-date_item">
+                        <p>CVV / CVN</p>
+                        <input type="password" maxlength="3" placeholder="***">
+                    </div>
+                </div>
+            </form>
+            <img src="./img/moon_flag.png" alt="img">
+
+        </div>
+    </div>
+</body>
+</html>

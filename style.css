@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.credit-card-box {
+    position: relative;
+    background-color: #9FCDCD;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 370px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.credit-card-box>h2 {
+    margin-left: -40px;
+    background-color: #DB6524;
+    padding: 10px 40px;
+    color: #fff;
+    position: fixed;
+    top: 160px;
+}
+.credit-card-box-item>p {
+    margin: 10px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+  input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #AAD2D2;
+    padding: 10px;
+}
+
+.credit-card-box-expiry-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+
+}
+
+.credit-card-box-expiry-date_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #AAD2D2;
+    padding: 10px;
+}
+
+.credit-card-box-expiry-date_item>input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #AAD2D2;
+    padding: 10px;
+}
+
+img {
+    position: absolute;
+    right: -80px;
+    bottom: -60px;
+    width: 270px;
+}
